@@ -1,0 +1,60 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+  /* variables declared in root is public */
+  :root{
+    /* --variablename:value */
+    --red:rgb(165, 32, 32);
+  }
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color:black;
+    color:white;
+    font-family: 'Oswald', sans-serif; 
+}
+.navbar-brand {
+    color: white;
+}
+.navbar-brand:hover{
+    color:var(--red)
+}
+
+.nav-item a{
+    color: white;
+    
+}
+
+.nav-item a:hover{
+    color:var(--red);
+}
+.h-5{
+    min-height: 450px;
+}
+.profile{
+    width: 90%;
+    height: 400px;
+    margin: 40px;
+    filter: drop-shadow(10px 10px 40px rgb(69, 67, 67));
+}
+
+.card{
+    background-color:black;
+    color: white;
+}
+.card img{
+    height: 250px;
+    width: 80%;
+}
+.titlecgroup{
+    color:var(--red);
+    text-align: center;
+
+}
+
+.icons i{
+    margin-left: 10px;
+    color: rgb(165, 32, 32);
+}
